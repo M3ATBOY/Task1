@@ -18,14 +18,6 @@ namespace Task1
                 string name = Console.ReadLine();
                 Console.WriteLine($"Привет,{name}.А ты любишь читать? д/н/очл/нез");
                 string answer = Console.ReadLine();
-                if (answer == "д" | answer == "очл")
-                {
-                    Console.WriteLine("Хорошо! Книга - источник знаний.");
-                }
-                if (answer == "н" | answer == "нез")
-                {
-                    Console.WriteLine("Плохо, из книг можно узнать много интересного");
-                }
                 while (answer != "н" && answer != "д" && answer != "очл" && answer != "нез")
                 {
                     Console.WriteLine($"{name}, ты ответил на вопрос некорректно");
