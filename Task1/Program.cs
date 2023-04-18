@@ -26,7 +26,7 @@ namespace Task1
                     {
                         Console.WriteLine("Хорошо! Книга - источник знаний.");
                     }
-                    if (answer == "н" | answer == "нез")
+                    else
                     {
                         Console.WriteLine("Плохо, из книг можно узнать много интересного");
                     }
